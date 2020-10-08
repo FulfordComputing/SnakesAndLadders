@@ -16,5 +16,10 @@ namespace SnakesAndLadders
         {
             connections = new List<Connection>();
         }
+
+        public override string ToString()
+        {
+            return number.ToString();
+        }
     }
 }
